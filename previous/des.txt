@@ -1,0 +1,17 @@
+### run 
+set Flask_APP=market.py      === $env:FLASK_APP = "market.py"
+flask run                    === python -m flask run 
+
+
+### debug mode is on            =>  after finishing work turn it to off
+set Flask_DEBUG=1              ===  $env:FLASK_DEBUG = "1"
+
+
+@app.route("/about/<username>") ===> dynamic routing
+
+
+{{}}     => getting data directly
+{%  %}   => logical expression
+
+
+### template inheritance => one base template
