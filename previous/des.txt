@@ -15,3 +15,14 @@ set Flask_DEBUG=1              ===  $env:FLASK_DEBUG = "1"
 
 
 ### template inheritance => one base template
+
+
+###
+pip install flask-sqlalchemy
+
+### python shell
+from market import db
+
+
+
+circular import => 2 python module try to import together => we can not do that
