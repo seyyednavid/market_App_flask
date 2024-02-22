@@ -5,5 +5,9 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///market.db'
 db = SQLAlchemy(app)
 
-
+from market import models
 from market import routes
+
+
+
+
