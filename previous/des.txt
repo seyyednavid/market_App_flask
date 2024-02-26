@@ -38,3 +38,7 @@ os.urandom(12).hex => "a3bda701b141e4702a2c9f8e"
 -------------------------------------------------------------
 
 Cross Site Request forgery (CSRF)
+put  {{ form.hidden_tag() }} into form
+
+----------------------------------------------------
+pip install flask-bcrypt 
